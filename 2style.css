@@ -1,0 +1,100 @@
+/*GYERMEKK ELEMEK*/
+/*általános gyermek elem választó*/
+div span {
+	background: green;
+}
+
+/*közvetlen gyermek elem választó*/
+div>span {
+	color: rgb(202, 187, 159);
+}
+
+div>p>span {
+	font-weight: bold;
+}
+
+/*SZOMSZÉD ELEMEK  (szomszéd = a DOM-ban egy adott elem után követző elemek)*/
+/*következő szomszéd*/
+p+h3 {
+	color: red;
+}
+
+/*általános szomszéd - a DOM-ban minden utána következő elem*/
+p~h3 {
+	background: yellow;
+}
+
+/*bármi, ami p után jön a DOM-ban*/
+p~* {
+	font-size: 13px;
+}
+
+/*PESUDO CLASSES*/
+li:first-of-type {
+	font-size: 20px;
+}
+
+li:nth-child(2) {
+	color: brown;
+}
+
+li:nth-child(odd) {
+	background: green;
+}
+
+li:nth-child(even) {
+	background: blue;
+}
+
+li:nth-child(odd):hover {
+	opacity: 70%;
+	background-color: rgb(6, 46, 6);
+	color: white;
+}
+
+input[type="checkbox"]:checked {
+	width: 50px;
+	height: 50px;
+	border: 5px solid green;
+}
+
+/*az oldalon levő minden disabled elem kiválasztása*/
+:disabled {
+	outline: 5px solid red;
+}
+
+:enabled {
+	outline: 5px solid blue;
+}
+
+input:in-range {
+	border: 10px solid rgb(99, 41, 41);
+}
+
+
+input:out-of-range {
+	border: 10 px solid rgb(216, 89, 89);
+}
+
+#input-with-focus:focus {
+	background-color: aquamarine;
+}
+
+:invalid {
+	background-color: red;
+}
+
+li:not(.special-class) {
+	border: 10px solid rgb(132, 170, 29);
+	margin: 10px;
+}
+
+:target {
+	border: 2px solid rgb(88, 86, 86);
+	background-color: rgb(99, 48, 48);
+}
+
+.big-fonts {
+	font-size: 25px;
+	width: 50%;
+}
