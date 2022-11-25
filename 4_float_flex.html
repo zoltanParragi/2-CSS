@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="4_float_flex.css">
+    <title>Float, flex</title>
+</head>
+
+<body>
+
+    <head>
+
+    </head>
+    <nav>
+
+    </nav>
+    <main>
+        <h1>Float, flex</h1>
+        <section>
+            <h2>Float</h2>
+            <article>
+                <h3>Floating boxes</h3>
+                <div class="float01">1. elem</div>
+                <div class="float02">2. elem</div>
+                <div class="float03">3. elem</div>
+                <div class="float04">4. elem</div>
+                <div class="float-end"></div>
+                <h4>!!! The order of floating elements reverses when they float right. !!!</h4>
+                <h3>Use float with images in large texts:</h3>
+                <div class="float1">kép 1</div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor delectus quod totam doloremque
+                consequuntur ipsa, adipisci, commodi vel veritatis aliquam eum, sequi et ad labore maxime molestias
+                perspiciatis deleniti molestiae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quam
+                perferendis odit recusandae est tempora nemo earum quod ratione ea iste consequatur temporibus sint,
+                sequi voluptatum inventore! Possimus, cumque ad?Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Fugit distinctio minus odit eos laudantium nobis ipsum, eaque, doloribus reiciendis,
+                exercitationem molestias optio? Alias blanditiis esse sint hic facere nam. Lorem ipsum dolor sit
+                amet consectetur, adipisicing elit. Doloremque blanditiis aspernatur, rem placeat expedita et
+                deleniti consequatur, impedit itaque sit maiores nemo? Totam, quisquam recusandae facilis id libero
+                repudiandae dicta!
+                <div class="float2">kép 2</div> Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+                placeat
+                itaque
+                explicabo saepe velit dignissimos a expedita, blanditiis corporis at atque recusandae eum. Facere,
+                minima modi itaque animi excepturi amet?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ullam doloribus ratione pariatur voluptatibus fugit assumenda a tempora vitae corporis aperiam culpa
+                laborum vero ea perspiciatis officia libero, repellat veritatis odit. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Alias et molestias magnam tempore atque quo, quidem ipsum omnis magni
+                earum voluptatum. Esse neque soluta commodi aliquid recusandae repudiandae quibusdam porro. Lorem
+                ipsum dolor, sit amet consectetur adipisicing elit. Quisquam excepturi aliquid, consectetur repellat
+                saepe perferendis dolores corporis dignissimos dolorem placeat aperiam totam deleniti expedita
+                ducimus vel animi laborum tenetur veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reiciendis incidunt assumenda eius sapiente iure minima adipisci fugiat, natus laboriosam excepturi
+                labore facilis consequatur officia hic dignissimos voluptatum dolore aut. Quaerat?
+            </article>
+            <article>
+                <h3>One floating box with container</h3>
+                <div class="wrapper1">
+                    <div class="float3"></div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat iure
+                    fuga magni esse accusantium voluptatem ab atque ex asperiores recusandae consequuntur nostrum sint
+                    illum blanditiis maxime quod, similique ipsa repellat.
+                </div>
+            </article>
+            <div class="float-end"></div>
+            <article>
+                <h3>The overflow hack: One floating box with container</h3>
+                <div class="wrapper2">
+                    <div class="float4"></div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat iure
+                    fuga magni esse accusantium voluptatem ab atque ex asperiores recusandae consequuntur nostrum sint
+                    illum blanditiis maxime quod, similique ipsa repellat.
+                </div>
+            </article>
+            <article>
+                <h3>Normal overflow example</h3>
+                <div class="wrapper3">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat iure
+                    fuga magni esse accusantium voluptatem ab atque ex asperiores recusandae consequuntur nostrum sint
+                    illum blanditiis maxime quod, similique ipsa repellat. Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Ab repellendus officiis corrupti illum mollitia beatae quo eligendi unde expedita
+                    impedit reprehenderit sed, labore harum. Natus ut accusantium omnis nostrum ducimus. Lorem ipsum
+                    dolor sit amet consectetur adipisicing elit. Doloribus numquam illo dolore dolores sunt velit
+                    quisquam nulla culpa a quam unde necessitatibus, quo ex beatae fugiat eum at ipsa? Eum! Lorem ipsum
+                    dolor sit amet consectetur adipisicing elit. Fugiat sequi, sunt vel nesciunt ut nihil voluptas
+                    impedit sed nulla aliquid, aspernatur doloribus reprehenderit excepturi? Debitis quibusdam fugit
+                    rerum quo odit.. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus sequi
+                    tempore deserunt accusantium aliquid, quibusdam sit molestias, autem qui voluptas illo quasi cumque
+                    corporis quae quo odio neque est quisquam.
+                </div>
+            </article>
+        </section>
+        <section>
+            <h2>Flexbox</h2>
+            <article>
+                <h3>First glance</h3>
+                <div class="flex-parent">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </article>
+            <article>
+                <h3>Full width, 2 columns, some assimetric content</h3>
+                <div class="flex-parent2">
+                    <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab eaque saepe odio facilis
+                        reprehenderit quis, tenetur, cupiditate, dolores error accusantium ex iste! Quis, modi? Earum
+                        modi sit ipsa necessitatibus deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </div>
+                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere libero fugit maiores labore
+                        beatae aliquam repellat voluptate qui, enim, quaerat blanditiis id earum rerum doloremque
+                        mollitia expedita natus temporibus voluptatem. Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Blanditiis consectetur hic sunt dolor necessitatibus iure numquam asperiores,
+                        autem delectus sit eius. Numquam deserunt non expedita. Eius consectetur reprehenderit error
+                        provident. lorem </div>
+                </div>
+            </article>
+            <article>
+                <h3>Horizontal layout: justify-content</h3>
+                <p>justify-content: flex-start(default) / flex-end / center / space-around / space-between /
+                    space-evenly </p>
+                <div class="flex-parent3">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </article>
+            <article>
+                <h3>Vertical layout: align-items (+justify-contet too)</h3>
+                <p>align-items: strech(default) / flex-start (not streched vertically) / flex-end (not streched
+                    vertically) / center (not streched vertically) </p>
+                <div class="flex-parent4">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </article>
+        </section>
+        <article>
+            <h2>Article 3 title</h2>
+            <section>
+                <h3>Section 3.1 title</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat repellat eum quo laborum inventore
+                    et mollitia iusto ea? Ad rerum doloremque eligendi aliquam sint tempora quam repudiandae, animi
+                    dolore architecto.</p>
+            </section>
+            <section>
+                <h3>Section 3.2 title</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat repellat eum quo laborum inventore
+                    et mollitia iusto ea? Ad rerum doloremque eligendi aliquam sint tempora quam repudiandae, animi
+                    dolore architecto.</p>
+            </section>
+        </article>
+    </main>
+</body>
+
+</html>
