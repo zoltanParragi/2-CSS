@@ -4,7 +4,7 @@ div span {
 	background: green;
 }
 
-/*közvetlen gyermek elem választó*/
+/*közvetlen gyermek elemek - választó*/
 div>span {
 	color: rgb(202, 187, 159);
 }
@@ -14,12 +14,12 @@ div>p>span {
 }
 
 /*SZOMSZÉD ELEMEK  (szomszéd = a DOM-ban egy adott elem után követző elemek)*/
-/*következő szomszéd*/
+/*következő szomszéd, 1db*/
 p+h3 {
 	color: red;
 }
 
-/*általános szomszéd - a DOM-ban minden utána következő elem*/
+/*általános szomszéd - a DOM-ban minden utána következő elem, több db lehet*/
 p~h3 {
 	background: yellow;
 }
